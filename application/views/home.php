@@ -34,7 +34,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		<section class="cover">
 			<h1 class="scielo-logo" title="Scientific Electronic Library Online">
 				<a href="/">
-					<img src="/static/images/logo-scielo-portal.svg" alt="Scientific Electronic Library Online">
+					<img src="/static/images/logo-scielo-portal-no-label.svg" alt="Scientific Electronic Library Online">
+					<span>Scientific Electronic Library Online</span>
 				</a>
 			</h1>
 			<form name="searchForm" id="searchForm" action="<?= SCIELO_SEARCH_URL ?>" method="get">
